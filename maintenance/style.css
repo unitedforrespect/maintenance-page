@@ -1,0 +1,98 @@
+.desktop-and {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: var(--acw-gradient);
+  background: linear-gradient(180deg, rgba(255, 220, 195, 0.45) 0%, rgba(188, 233, 255, 0.45) 100%);
+}
+
+.desktop-and .frame {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 72px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff80;
+  border-radius: 40px;
+}
+
+.desktop-and .text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop-and .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Gilroy-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: var(--aged-care-watchsyslighton-surface);
+  font-size: 57px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-and .aged-care-watch-is {
+  position: relative;
+  align-self: stretch;
+  font-family: "Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--aged-care-watchsyslighton-surface-variant);
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.desktop-and .span {
+  font-family: var(--material-theme-title-large-font-family);
+  font-weight: var(--material-theme-title-large-font-weight);
+  color: #40484c;
+  font-size: var(--material-theme-title-large-font-size);
+  letter-spacing: var(--material-theme-title-large-letter-spacing);
+  line-height: var(--material-theme-title-large-line-height);
+  font-style: var(--material-theme-title-large-font-style);
+}
+
+.desktop-and .text-wrapper-2 {
+  font-family: "Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: #40484c;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.desktop-and .text-wrapper-3 {
+  text-decoration: underline;
+}
+
+.desktop-and .ACW-logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 182px;
+  height: 68px;
+}
